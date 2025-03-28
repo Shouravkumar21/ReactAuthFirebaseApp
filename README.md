@@ -24,5 +24,4 @@ A React app implementing authentication using Firebase.
 ## Contributions
 Contributions are welcome! Please feel free to open an issue or create a pull request.
 
-## License
-This project is licensed under the [@gaurav](LICENSE).
+#
