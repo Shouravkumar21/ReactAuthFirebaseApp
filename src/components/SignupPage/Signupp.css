@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.main-upp {
+  display: flex;
+  background-color: lightgray;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 450px;
+}
+
+.subsign-upp {
+  background-color: white;
+  border-radius: 10px;
+  height: 350px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.head-upp {
+  text-align: center;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.email-uppp,
+.psw {
+  margin-bottom: 20px;
+  column-gap: 100px;
+}
+
+.ep-upp {
+  width: 93%;
+  padding: 10px;
+  margin-right: -10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.sign-upp {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.sign-upp:hover {
+  background-color: lightgray;
+}
+
+.p-upp {
+  color: black;
+}
+
+.icon-upp {
+  color: black;
+  margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  * {
+    background-color: lightgray;
+  }
+
+  .main-upp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+  }
+
+  .subsign-upp {
+    margin-top: 0px;
+  }
+
+  .head-upp {
+    background: none;
+  }
+}
